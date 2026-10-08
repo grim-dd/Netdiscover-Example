@@ -1,0 +1,21 @@
+Netdiscover Nedir? ;
+
+Bugün sizlere ağınızdaki cihazları keşfetmek için kullanışlı bir araç olan Netdiscover'dan bahsetmek istiyorum. Netdiscover, Linux ve Unix tabanlı işletim sistemlerinde kullanılabilen açık kaynaklı bir ağ keşif aracıdır. Bu araç, ağınızdaki aktif IP adreslerini ve MAC adreslerini bulmanıza yardımcı olur. Ağdaki cihazları tanımlamak, ağ sorunlarını tespit etmek veya güvenlik amaçlı kullanılabilir.
+
+Nasıl Kullanılır? ;
+
+sudo netdiscover -i {arayüz}
+
+Burada "{arayüz}" kısmını, ağınızdaki trafiği izlediğiniz ağ arabirimi adıyla değiştirmelisiniz. Örneğin, genellikle "eth0" veya "wlan0" gibi bir isim olabilir.
+
+Netdiscover, ağınızdaki cihazları tarayacak ve bulduğu IP ve MAC adreslerini listeyecek. Bu bilgileri kullanarak ağınızdaki cihazları tanımlayabilirsiniz. Ayrıca, Netdiscover'ın daha fazla seçeneği ve kullanımı hakkında bilgi almak için terminalde "man netdiscover" komutunu kullanabilirsiniz.
+
+Netdiscover, ağ yöneticileri ve güvenlik uzmanları için önemli bir araçtır. Ağınızdaki cihazları hızlı bir şekilde tanımlayarak potansiyel güvenlik açıklarını belirleyebilir ve ağınızı daha güvenli hale getirebilirsiniz.
+
+Netdiscover İle Host Discovery ;
+
+netdiscover -r ip_aralığı (10.10.10.0/24 gibi)
+
+Umarım bu bilgi faydalı olmuştur. Netdiscover'ı denemek için vakit ayırın ve ağınızdaki cihazları keşfedin!
+
+İyi keşifler!
